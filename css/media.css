@@ -1,0 +1,419 @@
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .navbar-nav > li > a {
+        height: 50px;
+    }
+}
+@media (max-width: 1200px) { 
+    .navbar-nav > li > a {
+        height: 51px;
+        padding: 13px 27px;
+    }
+ }
+
+/* Medium devices (desktops, 992px and up) */
+@media (max-width: 991px) { 
+    /*** HEADER-MIDDLE ***/
+    .header-top-section ul li a {
+        font-size: 10px;
+    }
+    .phone {
+        font-size: 11px;
+    }
+    .social-network {
+          line-height: 20px;
+    }
+        .icon-social-network {
+            width: 15px;
+            height: 15px;
+        }
+    /*** /HEADER-MIDDLE ***/
+    
+    /*** NAV ***/
+    .nav-section-wrap .navbar {
+        min-height: 43px;
+    }
+    .navbar-nav > li > a {
+        height: 43px;
+    }
+    .nav-section-wrap .nav > li > a {
+        padding: 10px 16px;
+        font-size: 12px;
+    }
+    #responsive-menu  {
+        background-color: #ed1c24;
+    }
+    #responsive-menu ul {
+        margin: 0;
+        padding: 0;
+    }
+    #responsive-menu li a:hover {
+        width: 100%;
+    }
+
+
+    .navbar-nav li a {
+        padding: 10px 9px;
+        border-left: 1px solid #fff;
+    }
+    /*** /NAV ***/
+
+    /*** ADVANTAGE ***/
+    .info-block a {
+        font-size: 14px;
+    }
+    /*** /ADVANTAGE ***/
+    
+    /*** PRICE ***/
+    .window-brand .model {
+        width: 60%;
+    }
+    .window-brand img {
+        width: 40%;
+        margin-top: 10px;
+    }
+
+    .window-brand .model h3 {
+        font-size: 28px;
+    }
+    .one-price-block p {
+        font-size: 26.5px;
+    }
+    .window-brand .model p {
+        font-size: 14px;
+    }
+    /*** /PRICE ***/
+    
+    /*** ORDER ***/
+    .order-text {
+        margin-top: 0;
+    }
+    /*** /ORDER ***/
+    
+    /*** OUR-WORK-SECTION ***/
+    .our-works-section>p {
+        font-size: 26px;
+    }
+    /*** /OUR-WORK-SECTION ***/
+
+
+    /*** FOOTER ***/
+    .footer-block-3 p {
+        padding: 5px 0;
+    }
+    .footer-block-2 ul li {
+        padding: 5px 0;
+    }
+    .footer-block-3 p {
+        padding: 1px 0;
+    }
+    .icon-social-network {
+        width: 25px;
+        height: 25px;
+    }
+    .footer-title {
+        margin-top: 30px;
+    }
+    /*** /FOOTER ***/
+
+ }
+
+
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 767px) { 
+    /*** HEADER-TOP ***/
+    .header-top-section {
+        display: none;
+    }
+    /*** /HEADER-TOP ***/
+
+    /*** HEADER-MIDDLE ***/
+    ul.nav.navbar-nav {
+        display: block;
+    }
+    /*** HEADER-MIDDLE ***/
+    
+    /*** NAV ***/
+    .navbar-nav > li > a {
+        color: #fff;
+        text-align: center;
+        background-color: #ed1c24;
+        border-top: 1px solid #fff;
+    }
+    .navbar-nav > li:last-child a {
+        background-color: #59646a;
+        border: none;
+    }
+    /*** /NAV ***/
+
+    /** IMAGE-BLOCK **/
+    .image-block-top {
+        font-size: 7vw;
+    }
+    .image-block-middle {
+        font-size: 4vw;
+    }
+    .image-block-footer-p {
+        font-size: 6vw;
+    }
+    .image-block-footer .btn-info {
+        float: none;
+        font-size: 3.5vw;
+        margin-top: 15%;
+    }
+    .image-block-footer-p {
+        float: none;
+    }
+    /** /IMAGE-BLOCK **/
+    
+    /** ADVANTAGE **/
+    .advantage-block {
+        padding: 20px 10px;
+        height: 80px;
+    }
+    .advantage-block p {
+        font-size: 15px;
+    }
+    /** /ADVANTAGE **/
+
+    /*** INFO ***/
+    .info-block p {
+        font-size: 20px;
+    }
+    /*** /INFO ***/
+
+    /*** PRICE ***/
+    .window-brand .model {
+        width: 70%;
+    }
+    .window-brand img {
+        width: 30%;
+    }
+    .window-brand .model h3 {
+        font-size: 60px;
+    }
+    .one-price-block p {
+        font-size: 38px;
+    }
+    .window-brand .model p {
+        font-size: 22px;
+    }
+    .price-block-header p {
+        font-size: 34px;
+    }
+    /*** /PRICE ***/
+
+    /*** ORDER ***/
+    .order-text {
+        margin-top: 20px;
+    }
+    .order-section {
+        margin-top: 0;
+        padding: 20px 0;
+    }
+    .order-img {
+        text-align: center;
+    }
+    .order-text-block p {
+        font-size: 18px;
+    }
+    .order-text>p {
+        font-size: 32px;
+    }
+    .btn-order {
+        width: 100%;
+        font-size: 22px;
+        border: 2px solid #ffcc33;
+    }
+    /*** /ORDER ***/
+
+    /*** OUR-WORK-SECTION ***/
+    .our-works-section>p {
+        font-size: 28px;
+    }
+    .flexslider {
+        margin-bottom: 20px;
+    }
+    /*** /OUR-WORK-SECTION ***/
+
+    /*** FOOTER ***/
+    .footer-block-x3 {
+        padding: 10px 30px;
+    }
+    .footer-block-1>img {
+        margin: 10px auto;
+        display: block;
+    }
+    .footer-block-x3 .footer-header {
+        margin-bottom: 10px;
+    }
+    .footer-block-2 ul {
+        text-align: center;
+    }
+    .footer-block-3 {
+        text-align: center;
+    }
+    .footer-title {
+        color: #ed1c24;
+    }
+    .footer-block-2 ul li {
+        padding: 10px 0;
+        font-size: 17px;
+    }
+    .footer-block-x3 p {
+        font-size: 16px;
+    }
+    .footer-block-x3 .footer-header {
+        float: left;
+        width: 100%;
+    }
+    /*** /FOOTER ***/
+ }
+
+ /* Small devices (tablets, 560px and up) */
+@media (max-width: 560px) { 
+    
+    /* HEADER-MIDDLE */
+    .header-middle-left-logo {
+        display: inline-flex;
+    }
+    .header-middle-left img {
+            float: none;
+        }
+    .header-middle-left p {
+            float: none;
+        }
+    .header-middle-left,
+    .header-middle-right {
+        width: 100%;
+        text-align: center;
+    }
+    .header-middle-left{
+        margin: 0 auto;
+        padding: 0;
+    }
+    .header-middle-right {
+        margin-top: 0;
+    }
+
+
+
+    .image-block-wrap {
+        display: none;
+    }
+    /* /HEADER-MIDDLE */
+
+    /* ADVANTAGE */
+    .advantage-block {
+        padding: 10px 5px;
+        font-size: 11px;
+        text-align: center;
+    }
+    .advantage-block img {
+        max-height: 40px;
+        float: left;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .advantage-block p {
+        float: left;
+        color: #fff;
+        margin-top: 0px;
+        width: 100%;
+        padding-left: 0px;
+        font-size: 11px;
+    }
+    /* /ADVANTAGE */
+    
+    /*** INFO ***/
+    .info-block  {
+        padding: 5px;
+    }
+    .info-block p {
+        font-size: 12px;
+    }
+    
+    /*** /INFO ***/
+   
+   /*** PRICE ***/
+    .window-brand .model {
+        width: 55%;
+    }
+    .window-brand img {
+        width: 45%;
+    }
+
+    .window-brand .model h3 {
+        font-size: 30px;
+    }
+    .one-price-block p {
+        font-size: 28px;
+    }
+    .window-brand .model p {
+        font-size: 15px;
+    }
+    .price-block-header p {
+        font-size: 22px;
+    }
+    h1 {
+        font-size: 22px;
+    }
+    /*** /PRICE ***/
+
+    /*** ORDER ***/
+    .order-text {
+        margin-top: 20px;
+    }
+    .order-section {
+        margin-top: 0;
+        padding: 20px 0;
+    }
+    .order-img {
+        text-align: center;
+    }
+    .order-text-block p {
+        font-size: 14px;
+    }
+    .order-text>p {
+        font-size: 25px;
+    }
+    .btn-order {
+        width: 100%;
+        font-size: 12px;
+        border: 2px solid #ffcc33;
+    }
+    /*** /ORDER ***/
+
+    /*** FOOTER ***/
+    .footer-block-x3 {
+        padding: 10px 30px;
+    }
+    .footer-block-1>img {
+        margin: 10px auto;
+        display: block;
+    }
+    .footer-block-x3 .footer-header {
+        margin-bottom: 10px;
+    }
+    .footer-block-2 ul {
+        text-align: center;
+    }
+    .footer-block-3 {
+        text-align: center;
+    }
+    .footer-title {
+        color: #ed1c24;
+    }
+    .footer-block-2 ul li {
+        padding: 10px 0;
+        font-size: 12px;
+    }
+    .footer-block-x3 p {
+        font-size: 13px;
+    }
+    .footer-block-x3 .footer-header {
+        font-size: 18px;
+    }
+    /*** /FOOTER ***/
+ }
